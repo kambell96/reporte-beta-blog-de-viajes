@@ -9,29 +9,18 @@ html{
     padding: 0;
 }
 body {
-    background-color: blue;
     height: 100%;
-    width: 100%;
     text-align: center;
    
 }
-.logo{
-    padding: 20px 0;
-    background-color: white;
-    text-align: center;
-    
-}
-.barra {
-   
-    padding: 0;
+
+.menu{
     margin: 0 auto;
-    display: inline-flex;
-    width: 100%;
-    height: 63px;
-    
+    width: auto;
+   
 }
 .main{
-    background-color: yellow;
+    background-color: rgb(236, 236, 17);
     height: 528px;
     margin-left: 10px;
     width: 76%;
@@ -40,7 +29,7 @@ body {
 }    
 .sidebar {
     background-color: greenyellow;
-    height: 330px;
+    height: 530px;
     margin-left: 16px;
     width: 20%;
     margin-top: 10px;
@@ -52,38 +41,37 @@ body {
     margin: 0 auto;
     margin-top: 10px;  
 }
-/** barra de navegacion **/
-nav{
-    position: relative;
-    width: 100%;
-    left: 0;
-    top: 0;
-    height: 80px;
+/** comienzo la barra */
+
+.menu{
+    background-color: red;
 }
 nav ul {
     padding: 0;
-    margin: 0 auto;
-    display: flex;
-    list-style: none;
-}
-nav a {
-    display: block;
-    margin: 0 auto;
-    color: white;
-    text-decoration: none;
-    width: 880px;
-}
-nav li a {
+    margin: 0 auto ;
     text-align: center;
-    background-color: red;
+    list-style: none;
+    display: inline-flex;
+}
+nav a{
+    margin: 0 auto;
+    display: block;
+    color:white;
+    text-decoration: none;
+    
+}
+nav li  a {
     padding: 20px;
     width: 200px;
-    font-size: 20px;
 }
+
+
 nav a:hover{
-    background: rgb(245, 85, 85);
+    background: rgb(233, 85, 85);
 }
-nav ul li ul {
+nav ul  ul  {
+    position: absolute;
+    background-color: rgb(214, 97, 97);
     display: none;
 }
 nav ul li a:hover + ul,nav ul li ul:hover{
@@ -111,39 +99,41 @@ h2{
 p{
     color: blue;
 }
+.caja-boton{
+
+}
 main a {
     background-color: rgb(241, 43, 43);
-    display: block;
-    padding: 10px 30px;
+    display: flex;
+    padding: 5px 5px;
     margin-top: 10px;
-    width:150px;
-    margin-left: 25px;
+    width: 90px;
+    margin-left: 8px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 50px;
+    height: 25px;
+    text-align: center; 
+    
 }
 main a:hover{
     background-color: rgb(247, 117, 117);
     transition: all 1.5s;
 }
-
-/** barra aside **/
-aside{
-    text-align: center;
-    padding-right: 2px;
-}
-aside ul {
+/** aside **/
+aside ul{
     list-style: none;
-}   
-aside a {
+    text-align: center;
+}
+aside ul li a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    text-align: center;
 }
 aside a:hover{
-    background-color: green;
+    background-color: yellow;
 }
 .copy p {
     color: white;
+    font-size: 20px;
 }
